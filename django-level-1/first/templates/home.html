@@ -2,5 +2,12 @@
 
 
 {% block content %}
-<h1>Hello, {{name}}!!!</h1>
+    <h1>Hello, {{name}}!!!</h1>
+    <form action="add">
+        Enter number 1: <input type="text" name='n1'>
+        <br>
+        Enter number 2 : <input type="text" name='n2'>
+        <br>
+        <input type="submit">
+    </form>
 {% endblock  %}
